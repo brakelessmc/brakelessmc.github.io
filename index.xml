@@ -8,7 +8,7 @@
     <language>sv-SE</language>
     <managingEditor>info@brakelessmc.com (Brakeless Mc)</managingEditor>
     <webMaster>info@brakelessmc.com (Brakeless Mc)</webMaster>
-    <lastBuildDate>Sat, 19 Jun 2021 13:35:27 +0200</lastBuildDate><atom:link href="https://brakelessmc.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Jun 2021 17:25:13 +0200</lastBuildDate><atom:link href="https://brakelessmc.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Onsdagsåkning 2021-06-19</title>
       <link>https://brakelessmc.github.io/onsdagsakning/2021-06-19/</link>
@@ -51,6 +51,15 @@ Startplats: St1 macken vid Lasarettet, Fagersta.</description>
       <description>[Klistra in text här] Denna är ny
 Starttid: 17:00
 Startplats: St1 macken vid Lasarettet, Fagersta.</description>
+    </item>
+    
+    <item>
+      <title>Author</title>
+      <link>https://brakelessmc.github.io/posts/author/</link>
+      <pubDate>Sat, 19 Jun 2021 17:25:13 +0200</pubDate>
+      <author>info@brakelessmc.com (Brakeless Mc)</author>
+      <guid>https://brakelessmc.github.io/posts/author/</guid>
+      <description>Testing Some text</description>
     </item>
     
     <item>
