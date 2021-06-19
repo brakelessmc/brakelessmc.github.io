@@ -59,7 +59,8 @@ Startplats: St1 macken vid Lasarettet, Fagersta.</description>
       <pubDate>Sat, 19 Jun 2021 17:25:13 +0200</pubDate>
       <author>info@brakelessmc.com (Brakeless Mc)</author>
       <guid>https://brakelessmc.github.io/posts/author/</guid>
-      <description>Testing Some text</description>
+      <description>Testing Some text
+This is the details title (click to expand) This is the content (hidden until clicked).  </description>
     </item>
     
     <item>
