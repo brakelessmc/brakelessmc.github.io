@@ -5,6 +5,8 @@
     <link>https://brakelessmc.github.io/categories/</link>
     <description>Recent content in Categories on Brakeless MC</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>sv-SE</language><atom:link href="https://brakelessmc.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>sv-SE</language>
+    <managingEditor>info@brakelessmc.com (Brakeless Mc)</managingEditor>
+    <webMaster>info@brakelessmc.com (Brakeless Mc)</webMaster><atom:link href="https://brakelessmc.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
