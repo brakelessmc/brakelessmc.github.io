@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Airspace | Creative Agency Hugo Template</title>
+    <title>Brakeless MC</title>
     <link>https://brakelessmc.github.io/posts/</link>
-    <description>Recent content in Posts on Airspace | Creative Agency Hugo Template</description>
+    <description>Recent content on Brakeless MC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-SE</language>
-    <copyright>Copyright &amp;copy; 2021 [Themefisher](https://themefisher.com).</copyright>
+    <managingEditor>info@brakelessmc.com (Brakeless Mc)</managingEditor>
+    <webMaster>info@brakelessmc.com (Brakeless Mc)</webMaster>
     <lastBuildDate>Sat, 19 Jun 2021 17:25:13 +0200</lastBuildDate><atom:link href="https://brakelessmc.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Author</title>
       <link>https://brakelessmc.github.io/posts/author/</link>
       <pubDate>Sat, 19 Jun 2021 17:25:13 +0200</pubDate>
-      
+      <author>info@brakelessmc.com (Brakeless Mc)</author>
       <guid>https://brakelessmc.github.io/posts/author/</guid>
       <description>Testing Some text
 This is the details title (click to expand) This is the content (hidden until clicked).  This is column 1. This is column 2. test  </description>
@@ -22,7 +23,7 @@ This is the details title (click to expand) This is the content (hidden until cl
       <title>Hello World</title>
       <link>https://brakelessmc.github.io/posts/hello-world/</link>
       <pubDate>Fri, 18 Jun 2021 12:10:46 +0200</pubDate>
-      
+      <author>info@brakelessmc.com (Brakeless Mc)</author>
       <guid>https://brakelessmc.github.io/posts/hello-world/</guid>
       <description></description>
     </item>

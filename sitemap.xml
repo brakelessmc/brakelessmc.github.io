@@ -2,11 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://brakelessmc.github.io/pages/stuguthyrning/</loc>
+    <loc>https://brakelessmc.github.io/stuguthyrning/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://brakelessmc.github.io/onsdagsakning/2021-06-19/</loc>
+    <loc>https://brakelessmc.github.io/arkivet/2021-06-19/</loc>
     <lastmod>2021-06-18T13:59:55+02:00</lastmod>
+  </url><url>
+    <loc>https://brakelessmc.github.io/arkivet/2021-06-20/</loc>
+    <lastmod>2021-06-18T15:53:08+02:00</lastmod>
   </url><url>
     <loc>https://brakelessmc.github.io/onsdagsakning/2021-06-21/</loc>
     <lastmod>2021-06-18T15:54:25+02:00</lastmod>
@@ -14,60 +17,50 @@
     <loc>https://brakelessmc.github.io/onsdagsakning/2021-06-22/</loc>
     <lastmod>2021-06-19T13:35:27+02:00</lastmod>
   </url><url>
+    <loc>https://brakelessmc.github.io/onsdagsakning/2021-06-23/</loc>
+    <lastmod>2021-06-21T17:22:03+02:00</lastmod>
+  </url><url>
+    <loc>https://brakelessmc.github.io/tags/2021/</loc>
+    <lastmod>2021-06-21T17:22:03+02:00</lastmod>
+  </url><url>
     <loc>https://brakelessmc.github.io/</loc>
+    <lastmod>2021-06-21T17:22:03+02:00</lastmod>
+  </url><url>
+    <loc>https://brakelessmc.github.io/tags/onsdags%C3%A5kning/</loc>
+    <lastmod>2021-06-21T17:22:03+02:00</lastmod>
+  </url><url>
+    <loc>https://brakelessmc.github.io/onsdagsakning/</loc>
+    <lastmod>2021-06-21T17:22:03+02:00</lastmod>
+  </url><url>
+    <loc>https://brakelessmc.github.io/tags/</loc>
+    <lastmod>2021-06-21T17:22:03+02:00</lastmod>
+  </url><url>
+    <loc>https://brakelessmc.github.io/stuguthyrning/bildgalleri/</loc>
     <lastmod>2021-06-19T22:06:51+02:00</lastmod>
   </url><url>
-    <loc>https://brakelessmc.github.io/pages/</loc>
+    <loc>https://brakelessmc.github.io/stuguthyrning/</loc>
     <lastmod>2021-06-19T22:06:51+02:00</lastmod>
   </url><url>
-    <loc>https://brakelessmc.github.io/pages/stugor-galleri/</loc>
-    <lastmod>2021-06-19T22:06:51+02:00</lastmod>
-  </url><url>
-    <loc>https://brakelessmc.github.io/pages/allmanna-villkor/</loc>
+    <loc>https://brakelessmc.github.io/stuguthyrning/allmanna-villkor/</loc>
     <lastmod>2021-06-19T21:30:16+02:00</lastmod>
   </url><url>
-    <loc>https://brakelessmc.github.io/pages/stugbokningskalender/</loc>
+    <loc>https://brakelessmc.github.io/stuguthyrning/stugbokningskalender/</loc>
     <lastmod>2021-06-19T21:07:57+02:00</lastmod>
-  </url><url>
-    <loc>https://brakelessmc.github.io/posts/author/</loc>
-    <lastmod>2021-06-19T17:25:13+02:00</lastmod>
   </url><url>
     <loc>https://brakelessmc.github.io/posts/</loc>
     <lastmod>2021-06-19T17:25:13+02:00</lastmod>
   </url><url>
-    <loc>https://brakelessmc.github.io/tags/2021/</loc>
-    <lastmod>2021-06-19T13:35:27+02:00</lastmod>
+    <loc>https://brakelessmc.github.io/posts/author/</loc>
+    <lastmod>2021-06-19T17:25:13+02:00</lastmod>
   </url><url>
-    <loc>https://brakelessmc.github.io/tags/onsdags%C3%A5kning/</loc>
-    <lastmod>2021-06-19T13:35:27+02:00</lastmod>
-  </url><url>
-    <loc>https://brakelessmc.github.io/onsdagsakning/</loc>
-    <lastmod>2021-06-19T13:35:27+02:00</lastmod>
-  </url><url>
-    <loc>https://brakelessmc.github.io/tags/</loc>
-    <lastmod>2021-06-19T13:35:27+02:00</lastmod>
-  </url><url>
-    <loc>https://brakelessmc.github.io/tags/arkiv/</loc>
-    <lastmod>2021-06-18T13:59:55+02:00</lastmod>
+    <loc>https://brakelessmc.github.io/arkivet/</loc>
+    <lastmod>2021-06-18T15:53:08+02:00</lastmod>
   </url><url>
     <loc>https://brakelessmc.github.io/posts/hello-world/</loc>
     <lastmod>2021-06-18T12:10:46+02:00</lastmod>
   </url><url>
-    <loc>https://brakelessmc.github.io/faq/</loc>
-    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://brakelessmc.github.io/message_sent/</loc>
-  </url><url>
-    <loc>https://brakelessmc.github.io/about/</loc>
-  </url><url>
     <loc>https://brakelessmc.github.io/categories/</loc>
   </url><url>
-    <loc>https://brakelessmc.github.io/contact/</loc>
-  </url><url>
     <loc>https://brakelessmc.github.io/omoss/</loc>
-  </url><url>
-    <loc>https://brakelessmc.github.io/pricing/</loc>
-  </url><url>
-    <loc>https://brakelessmc.github.io/service/</loc>
   </url>
 </urlset>
