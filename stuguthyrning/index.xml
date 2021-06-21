@@ -7,12 +7,56 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-SE</language>
     <managingEditor>info@brakelessmc.com (Brakeless Mc)</managingEditor>
-    <webMaster>info@brakelessmc.com (Brakeless Mc)</webMaster>
-    <lastBuildDate>Sat, 19 Jun 2021 22:06:51 +0200</lastBuildDate><atom:link href="https://brakelessmc.github.io/stuguthyrning/index.xml" rel="self" type="application/rss+xml" />
+    <webMaster>info@brakelessmc.com (Brakeless Mc)</webMaster><atom:link href="https://brakelessmc.github.io/stuguthyrning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Allmänna Villkor</title>
+      <link>https://brakelessmc.github.io/stuguthyrning/allmanna-villkor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>info@brakelessmc.com (Brakeless Mc)</author>
+      <guid>https://brakelessmc.github.io/stuguthyrning/allmanna-villkor/</guid>
+      <description>#the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; } #paginator{ text-align: center; margin-bottom: 10px; }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /     window.onload = function() { var url = &#34;https:\/\/brakelessmc.github.io\/&#34; + &#39;.\/stuguthyrning\/allmannavillkor.pdf&#39;; var hidePaginator = &#34;true&#34;; var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;]; pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/brakelessmc.github.io\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;; var pdfDoc = null, pageNum = 1, pageRendering = false, pageNumPending = null, scale = 3, canvas = document.</description>
+    </item>
+    
+    <item>
+      <title>Stuga 1</title>
+      <link>https://brakelessmc.github.io/stuguthyrning/stuga1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>info@brakelessmc.com (Brakeless Mc)</author>
+      <guid>https://brakelessmc.github.io/stuguthyrning/stuga1/</guid>
+      <description>Stuga 1</description>
+    </item>
+    
+    <item>
+      <title>Stuga 2</title>
+      <link>https://brakelessmc.github.io/stuguthyrning/stuga2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>info@brakelessmc.com (Brakeless Mc)</author>
+      <guid>https://brakelessmc.github.io/stuguthyrning/stuga2/</guid>
+      <description>Stuga 2</description>
+    </item>
+    
+    <item>
+      <title>Stuga 3</title>
+      <link>https://brakelessmc.github.io/stuguthyrning/stuga3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>info@brakelessmc.com (Brakeless Mc)</author>
+      <guid>https://brakelessmc.github.io/stuguthyrning/stuga3/</guid>
+      <description>Stuga 3</description>
+    </item>
+    
+    <item>
+      <title>Stugbokningskalender</title>
+      <link>https://brakelessmc.github.io/stuguthyrning/stugbokningskalender/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>info@brakelessmc.com (Brakeless Mc)</author>
+      <guid>https://brakelessmc.github.io/stuguthyrning/stugbokningskalender/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Stugor Bildgalleri</title>
       <link>https://brakelessmc.github.io/stuguthyrning/bildgalleri/</link>
-      <pubDate>Sat, 19 Jun 2021 22:06:51 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>info@brakelessmc.com (Brakeless Mc)</author>
       <guid>https://brakelessmc.github.io/stuguthyrning/bildgalleri/</guid>
       <description>Badrum 1
@@ -25,24 +69,6 @@
       Pentry 2
       Pentry 3
       Stuga3 1</description>
-    </item>
-    
-    <item>
-      <title>Allmänna Villkor</title>
-      <link>https://brakelessmc.github.io/stuguthyrning/allmanna-villkor/</link>
-      <pubDate>Sat, 19 Jun 2021 21:30:16 +0200</pubDate>
-      <author>info@brakelessmc.com (Brakeless Mc)</author>
-      <guid>https://brakelessmc.github.io/stuguthyrning/allmanna-villkor/</guid>
-      <description>#the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; } #paginator{ text-align: center; margin-bottom: 10px; }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /     window.onload = function() { var url = &#34;https:\/\/brakelessmc.github.io\/&#34; + &#39;.\/stuguthyrning\/allmannavillkor.pdf&#39;; var hidePaginator = &#34;true&#34;; var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;]; pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/brakelessmc.github.io\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;; var pdfDoc = null, pageNum = 1, pageRendering = false, pageNumPending = null, scale = 3, canvas = document.</description>
-    </item>
-    
-    <item>
-      <title>Stugbokningskalender</title>
-      <link>https://brakelessmc.github.io/stuguthyrning/stugbokningskalender/</link>
-      <pubDate>Sat, 19 Jun 2021 21:07:57 +0200</pubDate>
-      <author>info@brakelessmc.com (Brakeless Mc)</author>
-      <guid>https://brakelessmc.github.io/stuguthyrning/stugbokningskalender/</guid>
-      <description></description>
     </item>
     
   </channel>

@@ -79,9 +79,94 @@ Startplats: St1 macken vid Lasarettet, Fagersta.  (Klicka för karta)</descripti
     </item>
     
     <item>
+      <title>Author</title>
+      <link>https://brakelessmc.github.io/posts/author/</link>
+      <pubDate>Sat, 19 Jun 2021 17:25:13 +0200</pubDate>
+      <author>info@brakelessmc.com (Brakeless Mc)</author>
+      <guid>https://brakelessmc.github.io/posts/author/</guid>
+      <description>Testing Some text
+This is the details title (click to expand) This is the content (hidden until clicked).  This is column 1. This is column 2. test  </description>
+    </item>
+    
+    <item>
+      <title>Kvar att göra på hemsidan</title>
+      <link>https://brakelessmc.github.io/posts/hello-world/</link>
+      <pubDate>Fri, 18 Jun 2021 12:10:46 +0200</pubDate>
+      <author>info@brakelessmc.com (Brakeless Mc)</author>
+      <guid>https://brakelessmc.github.io/posts/hello-world/</guid>
+      <description>Kvar att göra på hemsidan   Bli medlem
+ Enskildtmedlemskap Familjemedlemskap    Formulär
+ Boka stug/or Bli enskildmedlem Bli familjemedlem    Analytics
+  Stugorna
+ Stuga 1 Stuga 2  Bild framifrån   Stuga 3    Styra om så brakelessmc.se pekar till denna nya hemsida.
+  Saker man kan lägga till senare  Bildgallerier  Google photos shortcode?    </description>
+    </item>
+    
+    <item>
+      <title>Allmänna Villkor</title>
+      <link>https://brakelessmc.github.io/stuguthyrning/allmanna-villkor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>info@brakelessmc.com (Brakeless Mc)</author>
+      <guid>https://brakelessmc.github.io/stuguthyrning/allmanna-villkor/</guid>
+      <description>#the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; } #paginator{ text-align: center; margin-bottom: 10px; }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /     window.onload = function() { var url = &#34;https:\/\/brakelessmc.github.io\/&#34; + &#39;.\/stuguthyrning\/allmannavillkor.pdf&#39;; var hidePaginator = &#34;true&#34;; var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;]; pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/brakelessmc.github.io\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;; var pdfDoc = null, pageNum = 1, pageRendering = false, pageNumPending = null, scale = 3, canvas = document.</description>
+    </item>
+    
+    <item>
+      <title>Om oss - Hitta Oss</title>
+      <link>https://brakelessmc.github.io/omoss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>info@brakelessmc.com (Brakeless Mc)</author>
+      <guid>https://brakelessmc.github.io/omoss/</guid>
+      <description>KLUBBENS ADRESS: The Brakeless MC
+Tallbovägen 10
+737 90 Ängelsberg.
+Tfn 070-6708320.
+E-mail: info@brakelessmc.com KOORDINATER: longitud: 59.9704789
+latitud: 16.0046601
+BANKGIRO: 123-5449, Brakeless MC.  KLUBBHUSET: Lokal: Klubbhuset med uthyrningsstugorna finns på Tallbovägen 10 i Ängelsberg.
+Vägbeskrivning: Sväng in på &amp;ldquo;Gamla Banan&amp;rdquo; vid miljöstationen (punkt A på kartan nedan.)</description>
+    </item>
+    
+    <item>
+      <title>Stuga 1</title>
+      <link>https://brakelessmc.github.io/stuguthyrning/stuga1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>info@brakelessmc.com (Brakeless Mc)</author>
+      <guid>https://brakelessmc.github.io/stuguthyrning/stuga1/</guid>
+      <description>Stuga 1</description>
+    </item>
+    
+    <item>
+      <title>Stuga 2</title>
+      <link>https://brakelessmc.github.io/stuguthyrning/stuga2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>info@brakelessmc.com (Brakeless Mc)</author>
+      <guid>https://brakelessmc.github.io/stuguthyrning/stuga2/</guid>
+      <description>Stuga 2</description>
+    </item>
+    
+    <item>
+      <title>Stuga 3</title>
+      <link>https://brakelessmc.github.io/stuguthyrning/stuga3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>info@brakelessmc.com (Brakeless Mc)</author>
+      <guid>https://brakelessmc.github.io/stuguthyrning/stuga3/</guid>
+      <description>Stuga 3</description>
+    </item>
+    
+    <item>
+      <title>Stugbokningskalender</title>
+      <link>https://brakelessmc.github.io/stuguthyrning/stugbokningskalender/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>info@brakelessmc.com (Brakeless Mc)</author>
+      <guid>https://brakelessmc.github.io/stuguthyrning/stugbokningskalender/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Stugor Bildgalleri</title>
       <link>https://brakelessmc.github.io/stuguthyrning/bildgalleri/</link>
-      <pubDate>Sat, 19 Jun 2021 22:06:51 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>info@brakelessmc.com (Brakeless Mc)</author>
       <guid>https://brakelessmc.github.io/stuguthyrning/bildgalleri/</guid>
       <description>Badrum 1
@@ -94,62 +179,6 @@ Startplats: St1 macken vid Lasarettet, Fagersta.  (Klicka för karta)</descripti
       Pentry 2
       Pentry 3
       Stuga3 1</description>
-    </item>
-    
-    <item>
-      <title>Allmänna Villkor</title>
-      <link>https://brakelessmc.github.io/stuguthyrning/allmanna-villkor/</link>
-      <pubDate>Sat, 19 Jun 2021 21:30:16 +0200</pubDate>
-      <author>info@brakelessmc.com (Brakeless Mc)</author>
-      <guid>https://brakelessmc.github.io/stuguthyrning/allmanna-villkor/</guid>
-      <description>#the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; } #paginator{ text-align: center; margin-bottom: 10px; }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /     window.onload = function() { var url = &#34;https:\/\/brakelessmc.github.io\/&#34; + &#39;.\/stuguthyrning\/allmannavillkor.pdf&#39;; var hidePaginator = &#34;true&#34;; var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;]; pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/brakelessmc.github.io\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;; var pdfDoc = null, pageNum = 1, pageRendering = false, pageNumPending = null, scale = 3, canvas = document.</description>
-    </item>
-    
-    <item>
-      <title>Stugbokningskalender</title>
-      <link>https://brakelessmc.github.io/stuguthyrning/stugbokningskalender/</link>
-      <pubDate>Sat, 19 Jun 2021 21:07:57 +0200</pubDate>
-      <author>info@brakelessmc.com (Brakeless Mc)</author>
-      <guid>https://brakelessmc.github.io/stuguthyrning/stugbokningskalender/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Author</title>
-      <link>https://brakelessmc.github.io/posts/author/</link>
-      <pubDate>Sat, 19 Jun 2021 17:25:13 +0200</pubDate>
-      <author>info@brakelessmc.com (Brakeless Mc)</author>
-      <guid>https://brakelessmc.github.io/posts/author/</guid>
-      <description>Testing Some text
-This is the details title (click to expand) This is the content (hidden until clicked).  This is column 1. This is column 2. test  </description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://brakelessmc.github.io/posts/hello-world/</link>
-      <pubDate>Fri, 18 Jun 2021 12:10:46 +0200</pubDate>
-      <author>info@brakelessmc.com (Brakeless Mc)</author>
-      <guid>https://brakelessmc.github.io/posts/hello-world/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Om oss - Hitta Oss</title>
-      <link>https://brakelessmc.github.io/omoss/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>info@brakelessmc.com (Brakeless Mc)</author>
-      <guid>https://brakelessmc.github.io/omoss/</guid>
-      <description>KLUBBENS ADRESS:
-The Brakeless MC
-Tallbovägen 10
-737 90 Ängelsberg.
-Tfn 070-6708320.
-E-mail: info@brakelessmc.com
-BANKGIRO:
-123-5449, Brakeless MC.
-KLUBBHUSET:
-Lokal: Klubbhuset med uthyrningsstugorna finns på Tallbovägen 10 i Ängelsberg.
-Vägbeskrivning: Sväng in på &amp;ldquo;Gamla Banan&amp;rdquo; vid miljöstationen (punkt A på kartan nedan.)</description>
     </item>
     
   </channel>

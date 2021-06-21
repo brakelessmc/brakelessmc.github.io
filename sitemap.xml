@@ -35,18 +35,6 @@
     <loc>https://brakelessmc.github.io/tags/</loc>
     <lastmod>2021-06-21T17:22:03+02:00</lastmod>
   </url><url>
-    <loc>https://brakelessmc.github.io/stuguthyrning/bildgalleri/</loc>
-    <lastmod>2021-06-19T22:06:51+02:00</lastmod>
-  </url><url>
-    <loc>https://brakelessmc.github.io/stuguthyrning/</loc>
-    <lastmod>2021-06-19T22:06:51+02:00</lastmod>
-  </url><url>
-    <loc>https://brakelessmc.github.io/stuguthyrning/allmanna-villkor/</loc>
-    <lastmod>2021-06-19T21:30:16+02:00</lastmod>
-  </url><url>
-    <loc>https://brakelessmc.github.io/stuguthyrning/stugbokningskalender/</loc>
-    <lastmod>2021-06-19T21:07:57+02:00</lastmod>
-  </url><url>
     <loc>https://brakelessmc.github.io/posts/</loc>
     <lastmod>2021-06-19T17:25:13+02:00</lastmod>
   </url><url>
@@ -59,8 +47,22 @@
     <loc>https://brakelessmc.github.io/posts/hello-world/</loc>
     <lastmod>2021-06-18T12:10:46+02:00</lastmod>
   </url><url>
+    <loc>https://brakelessmc.github.io/stuguthyrning/allmanna-villkor/</loc>
+  </url><url>
     <loc>https://brakelessmc.github.io/categories/</loc>
   </url><url>
     <loc>https://brakelessmc.github.io/omoss/</loc>
+  </url><url>
+    <loc>https://brakelessmc.github.io/stuguthyrning/stuga1/</loc>
+  </url><url>
+    <loc>https://brakelessmc.github.io/stuguthyrning/stuga2/</loc>
+  </url><url>
+    <loc>https://brakelessmc.github.io/stuguthyrning/stuga3/</loc>
+  </url><url>
+    <loc>https://brakelessmc.github.io/stuguthyrning/stugbokningskalender/</loc>
+  </url><url>
+    <loc>https://brakelessmc.github.io/stuguthyrning/bildgalleri/</loc>
+  </url><url>
+    <loc>https://brakelessmc.github.io/stuguthyrning/</loc>
   </url>
 </urlset>
