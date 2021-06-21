@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://brakelessmc.github.io/stuguthyrning/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://brakelessmc.github.io/arkivet/2021-06-19/</loc>
     <lastmod>2021-06-18T13:59:55+02:00</lastmod>
   </url><url>
@@ -47,7 +44,17 @@
     <loc>https://brakelessmc.github.io/posts/hello-world/</loc>
     <lastmod>2021-06-18T12:10:46+02:00</lastmod>
   </url><url>
+    <loc>https://brakelessmc.github.io/bli-medlem/enskild/</loc>
+  </url><url>
+    <loc>https://brakelessmc.github.io/bli-medlem/familje/</loc>
+  </url><url>
+    <loc>https://brakelessmc.github.io/bli-medlem/information/</loc>
+  </url><url>
+    <loc>https://brakelessmc.github.io/stuguthyrning/information/</loc>
+  </url><url>
     <loc>https://brakelessmc.github.io/stuguthyrning/allmanna-villkor/</loc>
+  </url><url>
+    <loc>https://brakelessmc.github.io/bli-medlem/</loc>
   </url><url>
     <loc>https://brakelessmc.github.io/categories/</loc>
   </url><url>
