@@ -147,7 +147,7 @@ This is the details title (click to expand) This is the content (hidden until cl
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>info@brakelessmc.com (Brakeless Mc)</author>
       <guid>https://brakelessmc.github.io/klippschema/</guid>
-      <description></description>
+      <description>document.addEventListener(&#39;DOMContentLoaded&#39;, function() { var calendarEl = document.getElementById(&#39;calendar&#39;); var calendar = new FullCalendar.Calendar(calendarEl, { locale: &#39;sv&#39;, aspectRatio: 1, weekNumbers: true, weekNumberCalculation: &#39;ISO&#39;, googleCalendarApiKey: &#39;AIzaSyA0WMDWURXmM3cd0kKZXO1ytBp6F16EQeA&#39;, firstDay: 1, eventSources: [ { googleCalendarId: &#39;brakelessmc.com_gvn9k8u90nf3s10jk015lmrkds@group.calendar.google.com&#39;, color: &#39;green&#39; } ], eventClick: function(info) { info.jsEvent.preventDefault(); } }); calendar.render(); });   body { margin: 10px 10px; padding: 0; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; font-size: 14px; } #loading { display: none; position: absolute; top: 10px; right: 10px; } #calendar { margin: 0 auto; }    loading.</description>
     </item>
     
     <item>
