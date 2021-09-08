@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Onsdagsåkningar med Brakeless Mc on Brakeless MC</title>
-    <link>https://brakelessmc.github.io/onsdagsakning/</link>
+    <link>https://brakelessmc.com/onsdagsakning/</link>
     <description>Recent content in Onsdagsåkningar med Brakeless Mc on Brakeless MC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-SE</language>
     <managingEditor>info@brakelessmc.com (Brakeless Mc)</managingEditor>
-    <webMaster>info@brakelessmc.com (Brakeless Mc)</webMaster><atom:link href="https://brakelessmc.github.io/onsdagsakning/index.xml" rel="self" type="application/rss+xml" />
+    <webMaster>info@brakelessmc.com (Brakeless Mc)</webMaster><atom:link href="https://brakelessmc.com/onsdagsakning/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
