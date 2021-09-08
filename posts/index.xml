@@ -17,15 +17,5 @@
       <description>Nedan finner du aktuella samt kommande evenemang som klubben annordnar. Äldre genomförda evenemang finner du i menyn under &amp;ldquo;INFORMATION / ARKIVERADE EVENEMANG&amp;rdquo;</description>
     </item>
     
-    <item>
-      <title>Author</title>
-      <link>https://brakelessmc.com/posts/author/</link>
-      <pubDate>Sat, 19 Jun 2021 17:25:13 +0200</pubDate>
-      <author>info@brakelessmc.com (Brakeless Mc)</author>
-      <guid>https://brakelessmc.com/posts/author/</guid>
-      <description>Testing Some text
-This is the details title (click to expand) This is the content (hidden until clicked).  This is column 1. This is column 2. test  </description>
-    </item>
-    
   </channel>
 </rss>
