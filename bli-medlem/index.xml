@@ -9,30 +9,30 @@
     <managingEditor>info@brakelessmc.com (Brakeless Mc)</managingEditor>
     <webMaster>info@brakelessmc.com (Brakeless Mc)</webMaster><atom:link href="https://brakelessmc.com/bli-medlem/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://brakelessmc.com/bli-medlem/enskild/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>info@brakelessmc.com (Brakeless Mc)</author>
-      <guid>https://brakelessmc.com/bli-medlem/enskild/</guid>
-      <description>Teckna Medlemskap  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://brakelessmc.com/bli-medlem/familje/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>info@brakelessmc.com (Brakeless Mc)</author>
-      <guid>https://brakelessmc.com/bli-medlem/familje/</guid>
-      <description>Teckna Medlemskap  </description>
-    </item>
-    
-    <item>
-      <title></title>
+      <title>Bli Medlem</title>
       <link>https://brakelessmc.com/bli-medlem/information/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>info@brakelessmc.com (Brakeless Mc)</author>
       <guid>https://brakelessmc.com/bli-medlem/information/</guid>
-      <description>Teckna Medlemskap Inom klubben sysslar vi med allt som har med MC och MC-åkning att göra och stödjande av sådan verksamhet. Vi samarbetar med SMC Västmanland i lokala och regionala aktiviteter, vi ordnar också egna träffar och utfärder dit andra klubbar och enskilda hojåkare inbjuds. Vi har en aktiv mötesverksamhet med en egen klubbstuga. Vi samarbetar med andra lokala föreningar och organisationer inom projekt som Kräftnatta, Våryran, och Engelsbergs-dagarna för att visa upp vår verksamhet och verka för vår sak.</description>
+      <description>Inom klubben sysslar vi med allt som har med MC och MC-åkning att göra och stödjande av sådan verksamhet. Vi samarbetar med SMC Västmanland i lokala och regionala aktiviteter, vi ordnar också egna träffar och utfärder dit andra klubbar och enskilda hojåkare inbjuds. Vi har en aktiv mötesverksamhet med en egen klubbstuga. Vi samarbetar med andra lokala föreningar och organisationer inom projekt som Kräftnatta, Våryran, och Engelsbergs-dagarna för att visa upp vår verksamhet och verka för vår sak.</description>
+    </item>
+    
+    <item>
+      <title>Familjemedlemskap</title>
+      <link>https://brakelessmc.com/bli-medlem/familje/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>info@brakelessmc.com (Brakeless Mc)</author>
+      <guid>https://brakelessmc.com/bli-medlem/familje/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Medlemskap</title>
+      <link>https://brakelessmc.com/bli-medlem/enskild/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>info@brakelessmc.com (Brakeless Mc)</author>
+      <guid>https://brakelessmc.com/bli-medlem/enskild/</guid>
+      <description> </description>
     </item>
     
   </channel>

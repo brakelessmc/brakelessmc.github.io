@@ -280,39 +280,21 @@ Plats: &lt;ins&gt;&lt;strong&gt;&lt;a href=&#34;https://goo.gl/maps/5nNebwQWNRwE
     </item>
     
     <item>
-      <title></title>
-      <link>https://brakelessmc.com/bli-medlem/enskild/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>info@brakelessmc.com (Brakeless Mc)</author>
-      <guid>https://brakelessmc.com/bli-medlem/enskild/</guid>
-      <description>Teckna Medlemskap  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://brakelessmc.com/bli-medlem/familje/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>info@brakelessmc.com (Brakeless Mc)</author>
-      <guid>https://brakelessmc.com/bli-medlem/familje/</guid>
-      <description>Teckna Medlemskap  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://brakelessmc.com/bli-medlem/information/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>info@brakelessmc.com (Brakeless Mc)</author>
-      <guid>https://brakelessmc.com/bli-medlem/information/</guid>
-      <description>Teckna Medlemskap Inom klubben sysslar vi med allt som har med MC och MC-åkning att göra och stödjande av sådan verksamhet. Vi samarbetar med SMC Västmanland i lokala och regionala aktiviteter, vi ordnar också egna träffar och utfärder dit andra klubbar och enskilda hojåkare inbjuds. Vi har en aktiv mötesverksamhet med en egen klubbstuga. Vi samarbetar med andra lokala föreningar och organisationer inom projekt som Kräftnatta, Våryran, och Engelsbergs-dagarna för att visa upp vår verksamhet och verka för vår sak.</description>
-    </item>
-    
-    <item>
       <title>Allmänna Villkor</title>
       <link>https://brakelessmc.com/stuguthyrning/allmanna-villkor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>info@brakelessmc.com (Brakeless Mc)</author>
       <guid>https://brakelessmc.com/stuguthyrning/allmanna-villkor/</guid>
       <description>#the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; } #paginator{ text-align: center; margin-bottom: 10px; }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /     window.onload = function() { var url = &#34;https:\/\/brakelessmc.com\/&#34; + &#39;.\/stuguthyrning\/allmannavillkor.pdf&#39;; var hidePaginator = &#34;true&#34;; var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;]; pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/brakelessmc.com\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;; var pdfDoc = null, pageNum = 1, pageRendering = false, pageNumPending = null, scale = 3, canvas = document.</description>
+    </item>
+    
+    <item>
+      <title>Bli Medlem</title>
+      <link>https://brakelessmc.com/bli-medlem/information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>info@brakelessmc.com (Brakeless Mc)</author>
+      <guid>https://brakelessmc.com/bli-medlem/information/</guid>
+      <description>Inom klubben sysslar vi med allt som har med MC och MC-åkning att göra och stödjande av sådan verksamhet. Vi samarbetar med SMC Västmanland i lokala och regionala aktiviteter, vi ordnar också egna träffar och utfärder dit andra klubbar och enskilda hojåkare inbjuds. Vi har en aktiv mötesverksamhet med en egen klubbstuga. Vi samarbetar med andra lokala föreningar och organisationer inom projekt som Kräftnatta, Våryran, och Engelsbergs-dagarna för att visa upp vår verksamhet och verka för vår sak.</description>
     </item>
     
     <item>
@@ -326,12 +308,30 @@ Plats: &lt;ins&gt;&lt;strong&gt;&lt;a href=&#34;https://goo.gl/maps/5nNebwQWNRwE
     </item>
     
     <item>
+      <title>Familjemedlemskap</title>
+      <link>https://brakelessmc.com/bli-medlem/familje/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>info@brakelessmc.com (Brakeless Mc)</author>
+      <guid>https://brakelessmc.com/bli-medlem/familje/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
       <title>Klippschema</title>
       <link>https://brakelessmc.com/klippschema/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>info@brakelessmc.com (Brakeless Mc)</author>
       <guid>https://brakelessmc.com/klippschema/</guid>
       <description>document.addEventListener(&#39;DOMContentLoaded&#39;, function() { var calendarEl = document.getElementById(&#39;calendar&#39;); var calendar = new FullCalendar.Calendar(calendarEl, { locale: &#39;sv&#39;, aspectRatio: 0.9, weekNumbers: true, weekNumberCalculation: &#39;ISO&#39;, googleCalendarApiKey: &#39;AIzaSyCj2Rv2uig5oIMda0ZY51xTVb44kJY4nfw&#39;, firstDay: 1, eventSources: [ { googleCalendarId: &#39;brakelessmc.com_gvn9k8u90nf3s10jk015lmrkds@group.calendar.google.com&#39;, color: &#39;green&#39; } ], eventClick: function(info) { info.jsEvent.preventDefault(); } }); calendar.render(); });   body { margin: 10px 10px; padding: 0; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; font-size: 14px; } #loading { display: none; position: absolute; top: 10px; right: 10px; } #calendar { margin: 0 auto; }    loading.</description>
+    </item>
+    
+    <item>
+      <title>Medlemskap</title>
+      <link>https://brakelessmc.com/bli-medlem/enskild/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>info@brakelessmc.com (Brakeless Mc)</author>
+      <guid>https://brakelessmc.com/bli-medlem/enskild/</guid>
+      <description> </description>
     </item>
     
     <item>
