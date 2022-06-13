@@ -14,7 +14,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>info@brakelessmc.com (Brakeless Mc)</author>
       <guid>https://brakelessmc.com/stuguthyrning/allmanna-villkor/</guid>
-      <description>#the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; } #paginator{ text-align: center; margin-bottom: 10px; }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /     window.onload = function() { var url = &#34;https:\/\/brakelessmc.com\/&#34; + &#39;.\/stuguthyrning\/allmannavillkor.pdf&#39;; var hidePaginator = &#34;true&#34;; var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;]; pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/brakelessmc.com\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;; var pdfDoc = null, pageNum = 1, pageRendering = false, pageNumPending = null, scale = 3, canvas = document.</description>
+      <description>Previous Next &amp;nbsp; &amp;nbsp; Page: / Ladda ner pdf filen.</description>
     </item>
     
     <item>
@@ -24,7 +24,7 @@
       <author>info@brakelessmc.com (Brakeless Mc)</author>
       <guid>https://brakelessmc.com/stuguthyrning/stugbokningskalender/</guid>
       <description>Stugorna är bokningsbara från 1 April till 30 September, övriga obokningsbara dagar markeras med RÖD bakgrund i kalendern ovan.
-     document.addEventListener(&#39;DOMContentLoaded&#39;, function() { var calendarEl = document.getElementById(&#39;calendar&#39;); var calendar = new FullCalendar.Calendar(calendarEl, { locale: &#39;sv&#39;, aspectRatio: 0.9, weekNumbers: true, weekNumberCalculation: &#39;ISO&#39;, googleCalendarApiKey: &#39;AIzaSyCj2Rv2uig5oIMda0ZY51xTVb44kJY4nfw&#39;, firstDay: 1, eventSources: [ { googleCalendarId: &#39;qkkuq459qo5c2kteqbfvgn8mt29ctcka@import.calendar.google.com&#39;, color: &#39;#ac725e&#39; }, { googleCalendarId: &#39;c_sfqiomb67q46o6q97r48aael1o@group.calendar.google.com&#39;, color: &#39;#4986e7&#39;, eventDisplay: &#39;block&#39; }, { googleCalendarId: &#39;c_bu9ij0rgbk4vi9mpj0ermv9bak@group.calendar.google.com&#39;, color: &#39;#ffad46&#39;, eventDisplay: &#39;block&#39; }, { googleCalendarId: &#39;c_jqt2nvgic3squ0bqv968rob040@group.</description>
+loading... </description>
     </item>
     
     <item>
@@ -34,15 +34,24 @@
       <author>info@brakelessmc.com (Brakeless Mc)</author>
       <guid>https://brakelessmc.com/stuguthyrning/bildgalleri/</guid>
       <description>Badrum 1
-      Badrum 2
-      Badrum 3
-      Badrum 4
-      Badrum 5
-      Badrum 6
-      Pentry 1
-      Pentry 2
-      Pentry 3
-      Stuga3 1</description>
+Badrum 2
+Badrum 3
+Badrum 4
+Badrum 5
+Badrum 6
+Pentry 1
+Pentry 2
+Pentry 3
+Stuga3 1
+Stuga3 2
+Stuga3 3
+Stuga3 4
+Stugor 1
+Stugor 2
+Stugor 3
+Stugor 4
+Stugor 5
+Stugor 6</description>
     </item>
     
     <item>
