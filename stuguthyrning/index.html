@@ -234,8 +234,8 @@
         <div class="posts-list">
           
             <article class="post-preview">
-    <a href="https://brakelessmc.com/stuguthyrning/information/">
-        <h2 class="post-title">Stuguthyrning</h2>
+    <a href="https://brakelessmc.com/stuguthyrning/allmanna-villkor/">
+        <h2 class="post-title">Allmänna Villkor</h2>
         
         
         
@@ -261,8 +261,300 @@
     </p>
     <div class="post-entry">
         
-        Nu har ni möjlighet att övernatta i mysiga stugor belägna endast ett stenkast från Världsarvet Engelsbergs bruk och den fantastiska Oljeön. De tre stugorna har självhushåll med tillgång till wc/dusch, tvätt samt kokmöjligheter i huvudhuset. Stugorna är utrustade med 90 cm våningssängar. Stugorna har fyra bäddar. Vid huvudhuset finns takad veranda med utemöbler vid de tillfällen vädrets makter inte är med. Vart ligger det? Följ skyltar Brakeless Mc ifrån Slaggarboden vid Ängelsbergs Bruk
-        <a href="https://brakelessmc.com/stuguthyrning/information/" class="post-read-more">[Läs mer]</a>
+        <script type="text/javascript" src="/js/pdf-js/build/pdf.js"></script>
+<style>
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+}
+#paginator{
+    text-align: center;
+    margin-bottom: 10px;
+}
+</style>
+
+<div id="paginator">
+    <button id="prev">Previous</button>
+    <button id="next">Next</button>
+    &nbsp; &nbsp;
+    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+</div>
+<div id="embed-pdf-container">
+    <canvas id="the-canvas"></canvas>
+</div>
+
+<script type="text/javascript">
+window.onload = function() {
+
+
+var url = "https:\/\/brakelessmc.com\/" + '.\/stuguthyrning\/allmannavillkor.pdf';
+var hidePaginator = "true";
+
+
+var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/brakelessmc.com\/" + '/js/pdf-js/build/pdf.worker.js';
+
+
+var pdfDoc = null,
+    pageNum = 1,
+    pageRendering = false,
+    pageNumPending = null,
+    scale = 3,
+    canvas = document.getElementById('the-canvas'),
+    ctx = canvas.getContext('2d');
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById('page_num').textContent = num;
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+if (hidePaginator == "true") {
+  document.getElementById("paginator").style.display = 'none';
+}
+
+
+
+function onPrevPage() {
+  if (pageNum <= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById('prev').addEventListener('click', onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum >= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById('next').addEventListener('click', onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  document.getElementById('page_count').textContent = pdfDoc.numPages;
+
+  
+  renderPage(pageNum);
+});
+}
+
+</script>
+<p>
+
+
+
+
+
+
+
+<i class="fas fa-file-pdf" title=""></i>
+
+<a href="/stuguthyrning/allmannavillkor.pdf">Ladda ner pdf filen.</a></p>
+
+        
+    </div>
+
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="https://brakelessmc.com/stuguthyrning/stugbokningskalender/">
+        <h2 class="post-title">Bokningskalender</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Postat 0001-01-01
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Brakeless Mc
+    
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        <p>Stugorna är bokningsbara från <strong>1 April till 30 September</strong>, övriga obokningsbara dagar markeras med <strong>RÖD</strong> bakgrund i kalendern ovan.</p>
+<hr>
+<link href='/lib/main.css' rel='stylesheet' />
+<script src='https://cdn.jsdelivr.net/npm/moment@2.27.0/min/moment.min.js'></script>
+<script src='/lib/main.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/@fullcalendar/moment@5.5.0/main.global.min.js'></script>
+<script src='/lib/locales/sv.js'></script>
+<script type='text/javascript'>
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      locale: 'sv',
+
+      aspectRatio: 0.9,
+      weekNumbers: true,
+      weekNumberCalculation: 'ISO',
+      
+      googleCalendarApiKey: 'AIzaSyCj2Rv2uig5oIMda0ZY51xTVb44kJY4nfw',
+      firstDay: 1,
+      eventSources: [
+        
+        {
+          googleCalendarId: 'qkkuq459qo5c2kteqbfvgn8mt29ctcka@import.calendar.google.com',
+          color: '#ac725e'
+        },
+        
+        {
+          googleCalendarId: 'c_sfqiomb67q46o6q97r48aael1o@group.calendar.google.com',
+          color: '#4986e7',
+          eventDisplay: 'block'
+        },
+        
+        {
+          googleCalendarId: 'c_bu9ij0rgbk4vi9mpj0ermv9bak@group.calendar.google.com',
+          color: '#ffad46',
+          eventDisplay: 'block'
+        },
+        
+        {
+          googleCalendarId: 'c_jqt2nvgic3squ0bqv968rob040@group.calendar.google.com',
+          color: '#f83a22',
+          eventDisplay: 'auto'
+        }
+      ],
+
+
+      events: [
+
+        {
+          start: '2021-01-01',
+          end: '2021-04-01',
+          overlap: false,
+          display: 'background',
+          color: '#EE3333'
+        },
+
+        {
+          start: '2021-10-01',
+          end: '2022-04-01',
+          overlap: false,
+          display: 'background',
+          color: '#EE3333'
+        },
+
+{
+          start: '2022-10-01',
+          end: '2023-04-01',
+          overlap: false,
+          display: 'background',
+          color: '#EE3333'
+        }
+      ],
+
+      eventClick: function(info) {
+        info.jsEvent.preventDefault(); 
+      }
+
+    });
+
+    calendar.render();
+  });
+
+</script>
+
+
+<style>
+
+  body {
+    margin: 10px 10px;
+    padding: 0;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+
+  #loading {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  #calendar {
+    margin: 0 auto;
+  }
+
+</style>
+</head>
+<body>
+
+  <div id='loading'>loading...</div>
+
+  <div id='calendar'></div>
+
+</body>
+</html>
+
+
         
     </div>
 
@@ -522,8 +814,8 @@
 </article>
           
             <article class="post-preview">
-    <a href="https://brakelessmc.com/stuguthyrning/stugbokningskalender/">
-        <h2 class="post-title">Bokningskalender</h2>
+    <a href="https://brakelessmc.com/stuguthyrning/information/">
+        <h2 class="post-title">Stuguthyrning</h2>
         
         
         
@@ -549,300 +841,8 @@
     </p>
     <div class="post-entry">
         
-        <p>Stugorna är bokningsbara från <strong>1 April till 30 September</strong>, övriga obokningsbara dagar markeras med <strong>RÖD</strong> bakgrund i kalendern ovan.</p>
-<hr>
-<link href='/lib/main.css' rel='stylesheet' />
-<script src='https://cdn.jsdelivr.net/npm/moment@2.27.0/min/moment.min.js'></script>
-<script src='/lib/main.js'></script>
-<script src='https://cdn.jsdelivr.net/npm/@fullcalendar/moment@5.5.0/main.global.min.js'></script>
-<script src='/lib/locales/sv.js'></script>
-<script type='text/javascript'>
-
-  document.addEventListener('DOMContentLoaded', function() {
-    var calendarEl = document.getElementById('calendar');
-
-    var calendar = new FullCalendar.Calendar(calendarEl, {
-      locale: 'sv',
-
-      aspectRatio: 0.9,
-      weekNumbers: true,
-      weekNumberCalculation: 'ISO',
-      
-      googleCalendarApiKey: 'AIzaSyCj2Rv2uig5oIMda0ZY51xTVb44kJY4nfw',
-      firstDay: 1,
-      eventSources: [
-        
-        {
-          googleCalendarId: 'qkkuq459qo5c2kteqbfvgn8mt29ctcka@import.calendar.google.com',
-          color: '#ac725e'
-        },
-        
-        {
-          googleCalendarId: 'c_sfqiomb67q46o6q97r48aael1o@group.calendar.google.com',
-          color: '#4986e7',
-          eventDisplay: 'block'
-        },
-        
-        {
-          googleCalendarId: 'c_bu9ij0rgbk4vi9mpj0ermv9bak@group.calendar.google.com',
-          color: '#ffad46',
-          eventDisplay: 'block'
-        },
-        
-        {
-          googleCalendarId: 'c_jqt2nvgic3squ0bqv968rob040@group.calendar.google.com',
-          color: '#f83a22',
-          eventDisplay: 'auto'
-        }
-      ],
-
-
-      events: [
-
-        {
-          start: '2021-01-01',
-          end: '2021-04-01',
-          overlap: false,
-          display: 'background',
-          color: '#EE3333'
-        },
-
-        {
-          start: '2021-10-01',
-          end: '2022-04-01',
-          overlap: false,
-          display: 'background',
-          color: '#EE3333'
-        },
-
-{
-          start: '2022-10-01',
-          end: '2023-04-01',
-          overlap: false,
-          display: 'background',
-          color: '#EE3333'
-        }
-      ],
-
-      eventClick: function(info) {
-        info.jsEvent.preventDefault(); 
-      }
-
-    });
-
-    calendar.render();
-  });
-
-</script>
-
-
-<style>
-
-  body {
-    margin: 10px 10px;
-    padding: 0;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    font-size: 14px;
-  }
-
-  #loading {
-    display: none;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
-
-  #calendar {
-    margin: 0 auto;
-  }
-
-</style>
-</head>
-<body>
-
-  <div id='loading'>loading...</div>
-
-  <div id='calendar'></div>
-
-</body>
-</html>
-
-
-        
-    </div>
-
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://brakelessmc.com/stuguthyrning/allmanna-villkor/">
-        <h2 class="post-title">Allmänna Villkor</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Postat 0001-01-01
-  
-  
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Brakeless Mc
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <script type="text/javascript" src="/js/pdf-js/build/pdf.js"></script>
-<style>
-#the-canvas {
-  border: 1px solid black;
-  direction: ltr;
-  width: 100%;
-  height: auto;
-}
-#paginator{
-    text-align: center;
-    margin-bottom: 10px;
-}
-</style>
-
-<div id="paginator">
-    <button id="prev">Previous</button>
-    <button id="next">Next</button>
-    &nbsp; &nbsp;
-    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
-</div>
-<div id="embed-pdf-container">
-    <canvas id="the-canvas"></canvas>
-</div>
-
-<script type="text/javascript">
-window.onload = function() {
-
-
-var url = "https:\/\/brakelessmc.com\/" + '.\/stuguthyrning\/allmannavillkor.pdf';
-var hidePaginator = "true";
-
-
-var pdfjsLib = window['pdfjs-dist/build/pdf'];
-
-
-pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/brakelessmc.com\/" + '/js/pdf-js/build/pdf.worker.js';
-
-
-var pdfDoc = null,
-    pageNum = 1,
-    pageRendering = false,
-    pageNumPending = null,
-    scale = 3,
-    canvas = document.getElementById('the-canvas'),
-    ctx = canvas.getContext('2d');
-
-
-
-function renderPage(num) {
-  pageRendering = true;
-  
-  pdfDoc.getPage(num).then(function(page) {
-    var viewport = page.getViewport({scale: scale});
-    canvas.height = viewport.height;
-    canvas.width = viewport.width;
-
-    
-    var renderContext = {
-      canvasContext: ctx,
-      viewport: viewport
-    };
-    var renderTask = page.render(renderContext);
-
-    
-    renderTask.promise.then(function() {
-      pageRendering = false;
-      if (pageNumPending !== null) {
-        
-        renderPage(pageNumPending);
-        pageNumPending = null;
-      }
-    });
-  });
-
-  
-  document.getElementById('page_num').textContent = num;
-}
-
-
-
-function queueRenderPage(num) {
-  if (pageRendering) {
-    pageNumPending = num;
-  } else {
-    renderPage(num);
-  }
-}
-
-
-
-if (hidePaginator == "true") {
-  document.getElementById("paginator").style.display = 'none';
-}
-
-
-
-function onPrevPage() {
-  if (pageNum <= 1) {
-    return;
-  }
-  pageNum--;
-  queueRenderPage(pageNum);
-}
-document.getElementById('prev').addEventListener('click', onPrevPage);
-
-
-
-function onNextPage() {
-  if (pageNum >= pdfDoc.numPages) {
-    return;
-  }
-  pageNum++;
-  queueRenderPage(pageNum);
-}
-document.getElementById('next').addEventListener('click', onNextPage);
-
-
-
-pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
-  pdfDoc = pdfDoc_;
-  document.getElementById('page_count').textContent = pdfDoc.numPages;
-
-  
-  renderPage(pageNum);
-});
-}
-
-</script>
-<p>
-
-
-
-
-
-
-
-<i class="fas fa-file-pdf" title=""></i>
-
-<a href="/stuguthyrning/allmannavillkor.pdf">Ladda ner pdf filen.</a></p>
-
+        Nu har ni möjlighet att övernatta i mysiga stugor belägna endast ett stenkast från Världsarvet Engelsbergs bruk och den fantastiska Oljeön. De tre stugorna har självhushåll med tillgång till wc/dusch, tvätt samt kokmöjligheter i huvudhuset. Stugorna är utrustade med 90 cm våningssängar. Stugorna har fyra bäddar. Vid huvudhuset finns takad veranda med utemöbler vid de tillfällen vädrets makter inte är med. Vart ligger det? Följ skyltar Brakeless Mc ifrån Slaggarboden vid Ängelsbergs Bruk
+        <a href="https://brakelessmc.com/stuguthyrning/information/" class="post-read-more">[Läs mer]</a>
         
     </div>
 
